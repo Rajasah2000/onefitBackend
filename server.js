@@ -57,7 +57,7 @@ connectDB();
 // Enable CORS for all routes
 app.use(
   cors({
-    origin: ["http://13.233.130.229:3000", "http://13.233.130.229"], // Replace with your frontend domains
+    origin: ["http://3.110.197.164:3000", "http://3.110.197.164"], // Replace with your frontend domains
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
